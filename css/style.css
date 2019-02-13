@@ -3,20 +3,30 @@ body {
 }
 
 
-.header li {
+.register{
+	margin-left:  450px;
+}
+
+.menu li {
 	list-style-type: none;
 	padding: 8px 16px;
 	color:white;
 
 }
 
-.header{
+.header {
 	display: flex;
 	flex-direction: row;
 	height: 40px;
 	background-color: #333;
 	align-items: center;
 
+}
+
+.menu {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 
 .logo {
@@ -35,7 +45,7 @@ a:link{
 }
 
 
-.header li:hover {
+.menu li:hover {
 
 	background-color: black;
 	color: purple;
